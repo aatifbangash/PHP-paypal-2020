@@ -10,8 +10,8 @@ class PaypalExpress
 {
     public $paypalEnv       = 'sandbox'; // Or 'production'
     public $paypalURL       = 'https://api.sandbox.paypal.com/v1/';
-    public $paypalClientID  = 'AYlWdjkATDp5DYe2cQotUmGRRqg-dOslH-WF0XOaZDcg7hOiBcm6hVe0Ci4_xkBXUfS7ttL7BFjEXbO0';
-    private $paypalSecret   = 'EEN5ftCXxOgZr7pZgWJhxNNBDZPSYWWxsIT0ERqNR2R7fhjge48wX7jZGfzAzZsLpGV5Ej2a_FRKNHBj';
+    public $paypalClientID  = 'XXXX';
+    private $paypalSecret   = 'XXXX';
 
     public function __construct()
     {
